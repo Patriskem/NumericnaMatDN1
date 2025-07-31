@@ -1,1 +1,1 @@
-# NumericnaMatDN1
+# Numerična matematika domače naloge

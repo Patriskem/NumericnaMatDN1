@@ -1,0 +1,13 @@
+name = "Domaca01"
+uuid = "866c052c-5bc0-4f28-8826-140bc9c6586d"
+authors = ["patrikschembri <patrikschembri@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
+
+[compat]
+Weave = "0.10.12"
