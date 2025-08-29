@@ -5,6 +5,9 @@
 ## Opis naloge
 ### V prvem delu naloge se ukvarjamo s pisanjem učinkovite funkcije za izračun vrednosti porazdelitvene funkcije standardne normalne porazdelitve N(0, 1).
 Funkcija normalPor(x) uporablja različne pristope glede na območje.
+- za $x < 0$ izkorišča simetrijo $F(x) = 1 - F(-x)$,
+- za $x \in [-10, 10]$ uporabi sestavljeno Simpsonovo metodo za integracijo,
+- za $x > 10$ uporabi repno integracijo $Q(x) = \int_x^{\infty} f(t)\,dt$,
 
 ### Naloge s števili: Gauss-Legendrove kvadrature
 V drugem delu naloge se ukvarjamo z izpeljavo Gauss-Legendreovega pravila za numerično integracijo. 
