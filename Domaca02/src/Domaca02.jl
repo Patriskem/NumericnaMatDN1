@@ -3,7 +3,7 @@ module Domaca02
 """
     por = normalPorGost(x)
 
-Vrne vrednost gostote porazdelitve standardne normalne slučajne spremenljivke.
+Vrne vrednost gostote porazdelitve.
 """
 function normalPorGost(x)
     return exp(-x^2 / 2) / sqrt(2 * pi)

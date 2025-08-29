@@ -8,7 +8,7 @@ function cdfCalc(x)
     return res
 end
 
-@testset "Gostota porazdelitve standardne normalne slučajne spremenljivke" begin
+@testset "Gostota porazdelitve" begin
     # Primerjava izračunanih vrednosti z znanimi
     @test abs(normalPorGost(0.0) - 0.3989422804) <= tol
     @test abs(normalPorGost(1.0) - 0.2419707245) <= tol
