@@ -1,1 +1,2 @@
-# NumericnaMatDN1
+# Tretja domača naloga iz numerične matematike
+
